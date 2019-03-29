@@ -1,6 +1,7 @@
 import worldlogic
 import graphics
 
+
 def init():
     world = worldlogic.init()
     data = {}
