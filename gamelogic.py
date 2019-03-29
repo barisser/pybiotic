@@ -1,5 +1,6 @@
 import graphics
 
+
 def cycle(screen, data):
     #determine if world map needs to be regenerated, if so, do it
     if data['world_changed']:
