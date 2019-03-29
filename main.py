@@ -10,11 +10,13 @@ screen_width = 1200
 screen_height = 800
 frame_rate = 50
 
+
 def init():
     pygame.init()
     image_loader.init()
     screen = pygame.display.set_mode((screen_width, screen_height))
     return screen
+
 
 def main_loop():
     clock = pygame.time.Clock()
