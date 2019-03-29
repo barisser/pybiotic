@@ -2,6 +2,7 @@
 worldx = 200
 worldy = 200
 
+
 class World:
     def __init__(self):
         self.worldx = worldx
