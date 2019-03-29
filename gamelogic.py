@@ -12,7 +12,7 @@ def cycle(screen, data):
         data['units_screen'] = None#graphics.generate_units_screen(units)
 
     #blit them both on screen
-    screen.blit(data['world_screen'], (0,0), None)
+    screen.blit(data['world_screen'], (0, 0), None)
 
     #other calculations for state
 
