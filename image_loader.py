@@ -1,6 +1,7 @@
 import pygame
 import os
 
+
 def init():
     a = []
     path = os.getcwd() + "/images/a.png"
