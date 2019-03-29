@@ -3,6 +3,7 @@ import pygame
 tilex = 32
 tiley = 32
 
+
 def regenerate_world_screen(world):
     width = world.worldx * tilex
     height = world.worldy * tiley
@@ -11,6 +12,7 @@ def regenerate_world_screen(world):
     return a
 
 #def generate_units_screen(units):
+
 
 def render_unit(unit, units_screen):
     x = unit.x * tilex
