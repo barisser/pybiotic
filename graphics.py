@@ -7,7 +7,7 @@ def regenerate_world_screen(world):
     width = world.worldx * tilex
     height = world.worldy * tiley
     a = new_surface(width, height)
-    render_color(a, 1,1,0,0, (255,255,255))
+    render_color(a, 1, 1, 0, 0, (255, 255, 255))
     return a
 
 #def generate_units_screen(units):
